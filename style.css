@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #9e6921 0,
+    #9e6024 8.33%,
+    #995527 16.67%,
+    #8f4928 25%,
+    #813b27 33.33%,
+    #6f2d25 41.67%,
+    #591f1f 50%,
+    #431218 58.33%,
+    #300811 66.67%,
+    #240006 75%,
+    #190000 83.33%,
+    #0d0000 91.67%,
+    #000000 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-image: radial-gradient(
+    circle at 32.78% 45.39%,
+    #ffc662 0,
+    #ffbb67 8.33%,
+    #ffad6c 16.67%,
+    #ff9e6f 25%,
+    #ff8e71 33.33%,
+    #f17d70 41.67%,
+    #d86c6c 50%,
+    #be5c67 58.33%,
+    #a65061 66.67%,
+    #92465d 75%,
+    #813f59 83.33%,
+    #733a57 91.67%,
+    #683756 100%
+  );
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-width: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.portfolio {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.projetos {
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: center;
+  flex-direction: column;
+  padding: 8px 32px;
+  background-image: radial-gradient(
+    circle at 18.46% 50%,
+    #ffc31a 0,
+    #ffb42b 8.33%,
+    #ffa338 16.67%,
+    #ff9143 25%,
+    #ff7d4b 33.33%,
+    #ff6851 41.67%,
+    #f25353 50%,
+    #d94053 58.33%,
+    #c23054 66.67%,
+    #ae2455 75%,
+    #9d1c56 83.33%,
+    #8e1859 91.67%,
+    #81195d 100%
+  );
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+}
+.dark {
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #9e6921 0,
+    #9e6024 8.33%,
+    #995527 16.67%,
+    #8f4928 25%,
+    #813b27 33.33%,
+    #6f2d25 41.67%,
+    #591f1f 50%,
+    #431218 58.33%,
+    #300811 66.67%,
+    #240006 75%,
+    #190000 83.33%,
+    #0d0000 91.67%,
+    #000000 100%
+  );
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .portfolio {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
