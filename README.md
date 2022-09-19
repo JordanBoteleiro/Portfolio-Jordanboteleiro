@@ -10,4 +10,6 @@ imersão Alura
  <br>
  -CSS
 <br>
+-JS
+<br>
 -Git e Github
